@@ -84,7 +84,7 @@ opacity: 1;}
 }
 .input-text{
     
-    width: 350px;
+    width: 95%;
     height: 30px;
     background-color:rgba(228, 212, 212, 0.737);
     border-color:rgba(228, 212, 212, 0.737) ;
@@ -92,7 +92,7 @@ opacity: 1;}
 }
 
 .btn{
-    width: 350px;
+    width: 95%;
     height: 40px;
     background-color: red;
     color: yellow;
