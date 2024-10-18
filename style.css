@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: rgb(198, 226, 237);
+    
+}
+.bg-half{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(24, 24, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-top-right-radius: 20%;
+    border-bottom-right-radius:20% ; */
+    clip-path: ellipse(90% 100% at 10% 50%);
+}
+
+.bg-half img{width: 350px;
+height: 400px;
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    min-width: 350px;
+    background:rgb(172, 225, 227);
+    
+    padding: 55px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: -2px 2px 15px rgba(0,0,0,0.5);
+    text-align: left;
+}
+
+
+
+
+.ending img{border-radius: 50%;
+height: 40px;
+width: 40px;
+margin-right: 25px;
+opacity: 1;}
+
+.form-box h1{
+    font-size: 30px;
+
+}
+
+.form-box .underline{
+    width: 30px;
+    height: 4px;
+    
+    margin: 10px auto 50px auto;
+    border-radius: 5px;
+    
+}
+
+.input-field{
+    padding-bottom: 20px;
+    
+    transition: max-height 0.5s;
+    overflow: 'hidden';
+   
+}
+.input-text{
+    
+    width: 350px;
+    height: 30px;
+    background-color:rgba(228, 212, 212, 0.737);
+    border-color:rgba(228, 212, 212, 0.737) ;
+    border-radius: 5px;
+}
+
+.btn{
+    width: 350px;
+    height: 40px;
+    background-color: red;
+    color: yellow;
+    border-color:red ;
+    
+}
+
+.remember-forget a{text-decoration: none;}
+
+.ending{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 30px auto;
+}
+
+#para1{text-align: center;}
+
+.ending img:hover{opacity: 0.5;}
+
+.btn:hover{cursor: pointer;
+    background-color: rgb(206, 14, 14);
+}
+
+@media screen and (max-width: 830px) {
+    .bg-half {
+      display:none;
+    }
+  }
+
+  .remember-forget a{
+    opacity: 1;
+  }
+  .remember-forget a:hover{opacity: 0.8;}
+
+  .register-link a{opacity: 1;}
+  .register-link a:hover{opacity: 0.8;}
+
